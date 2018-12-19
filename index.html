@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Vanilla Javascript Hangman</title>
+</head>
+
+<body>
+    <!-- start of wrapper -->
+    <div id="wrapper">
+        <div>
+            <h1>Vanilla Javascript Hangman</h1>
+        </div>
+        <div id="button-container">
+        </div>
+        <!-- Word Container -->
+        <div id="message-container">
+            <!--this will contain guesses left-->
+            <div>
+                <p class="title" id="word-display"></p>
+            </div>
+            <div>
+                <p class="title">You have <span id="guess-display"></span> lives Left</p>
+            </div>
+            <div>
+                <p class="title" id="correct-word"></p>
+                <p class="title" id="game-message"></p>
+            </div>
+        </div>
+        <!-- Picture Container -->
+        <div id="picture-container">
+            <img src="images/Hangman_0.jpg" id="hangman-img" />
+		</div>
+    </div>
+        <!-- end of wrapper -->
+        <script src="script.js"></script>
+</body>
+
+</html>
